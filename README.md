@@ -1,6 +1,6 @@
 # Custom OtelCollector Example
 
-This repository contains an example of a custom OpenTelemetry Collector (OTel Collector) distribution. The distribution is built using a Go-based OpenTelemetry Collector Builder and then packaged into a Docker image. It is configured to receive OTLP data over HTTP and gRPC, process the data, and then export it to an OTLP HTTP exporter.
+This repository contains an example of a custom [OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector) (OTel Collector) distribution. The distribution is built using a Go-based [OpenTelemetry Collector Builder](https://github.com/open-telemetry/opentelemetry-collector/tree/main/cmd/builder) and then packaged into a Docker image. It is configured to receive OTLP data over HTTP and gRPC, process the data, and then export it to an OTLP HTTP exporter.
 
 ## Files
 
